@@ -32,7 +32,7 @@ class Solution:
         size = len(ary)
         i,j = 0,1
         while i < size and j < size:
-            if i != j and ary[j]-ary[i] == target:
+            if i != j and ary[j]+ary[i] == target:
                 print (",ary[i], ",", arr[j]")
                 return True
             elif ary[j] - ary[i] < target:
