@@ -29,7 +29,7 @@ Input: ary = [3,1,7] ; target = 4 ;         Output = [0,1]
 
 class Solution:
     def two_numbers(self, ary, target):
-        for x in ary
+        for x in ary:
             other_number = target - x
             if other_number in ary:
                 return [ary.index(x),ary.index(other_number)]
